@@ -1,0 +1,52 @@
+
+input[type="text"] {
+	height: 40px;
+	width: 200px; 
+	background-color: #FFF0A3;
+	font-size: 16px;
+}
+
+table, th, td {	
+border: 1px solid black;
+}
+
+input[type=text]:focus {
+    border: 2px solid #FFF2AF;
+}
+
+#ball_submit {
+	position: relative;
+	margin-left: 30%;
+	weight: 60px;
+	height:	60px;
+}
+
+body
+{
+	background: #FEDF3C;
+	font-size: 20px; 
+
+}
+img
+{
+	weight: 90px;
+	height:	90px;
+	margin-top: 20%;
+}
+
+.btn {
+	font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s; 
+}
+
+.btn:hover { background: rgb(53, 167, 110); }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
